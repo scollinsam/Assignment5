@@ -45,9 +45,9 @@ body {
 #container-fluid {
     height: 400px;
     width: 700px;
-    background-color: rgb(241, 227, 31);
     transform: translateY(20%);
     margin: auto;
+    margin-top: -4%;
 }
 
 #time {
@@ -66,7 +66,7 @@ body {
     background-color: rgb(19, 151, 19);
 }
 #color2 {
-    background-color: rgb(85, 30, 30);
+    background-color: rgb(37, 56, 19);
 }
 .monkeycard {
     position: relative;
@@ -94,8 +94,8 @@ body {
     transform: rotateY(180deg);
 }
 .match {
-    border: rgb(241, 227, 31);
     transform: rotateY(180deg);
+    border: 2px solid gold;
 }
 #win-wrapper{
     position:fixed;
@@ -138,4 +138,9 @@ body {
     border-radius: 50%;
     box-shadow: 5px 5px rgb(61, 57, 57);
 }
-
+audio {
+    display: none;
+}
+.matchmade {
+    
+}
