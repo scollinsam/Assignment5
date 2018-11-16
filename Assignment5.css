@@ -1,0 +1,141 @@
+body {
+    background-image: url("./monkeypics/landscape.png");
+}
+.modal{
+    background-image: url("./monkeypics/Bananas.jpg");
+    background-size: contain;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    padding: 40px;
+    border-radius: 5px;
+}
+#modal-wrapper .close-btn{
+    position:absolute;
+    right:10px;
+    top:10px;
+    color:black;
+}
+#modal-wrapper{
+    position:fixed;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    background-color:rgba(0,0,0,0.5);
+    z-index:12345;
+}
+#modal-wrapper #start-button{
+    margin: auto;
+    margin-top: 40px;
+    height: 33%;
+    width: 60%;
+    background-color: brown;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 5px 5px rgb(61, 57, 57);
+}
+        
+#container-fluid {
+    height: 400px;
+    width: 700px;
+    background-color: rgb(241, 227, 31);
+    transform: translateY(20%);
+    margin: auto;
+}
+
+#time {
+    text-align: center;
+    color: yellow;
+    font-size: 30px;
+    padding: 0px;
+}
+.row {
+    height: 33%;
+}
+.col-sm-3.col-lg-3 {
+    height: 100%;
+}
+#color1 {
+    background-color: rgb(19, 151, 19);
+}
+#color2 {
+    background-color: rgb(85, 30, 30);
+}
+.monkeycard {
+    position: relative;
+    height: inherit;
+    width: 100%;
+    transition: all .4s linear;
+    transform-style: preserve-3d;
+}
+.front {
+    position: absolute;
+    height: inherit;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.back {
+    position: absolute;
+    height: inherit;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotateY(180deg);
+}
+.selected {
+    transform: rotateY(180deg);
+}
+.match {
+    border: rgb(241, 227, 31);
+    transform: rotateY(180deg);
+}
+#win-wrapper{
+    position:fixed;
+    display: none;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    background-color:rgba(0,0,0,0.5);
+    z-index:12345;
+}
+.win {
+    background-image: url("./monkeypics/dancingmonkey.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 217px;
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    padding: 40px;
+    border-radius: 5px;
+}
+#win-message {
+    color: yellow;
+    position: absolute;
+    transform: translateY(-178%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#replay-button {
+    margin: auto;
+    width: 60%;
+    transform: translateY(274%);
+    background-color: brown;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 5px 5px rgb(61, 57, 57);
+}
+

@@ -1,0 +1,4 @@
+    Memory.distributeRandomMonkeys = function (Memorysquares, monkeys) {
+        console.log("GO");
+
+        monkeycardArray = monkeycardArray[Math.floor(Math.random()*monkeycardArray.length)];
