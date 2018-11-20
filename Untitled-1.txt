@@ -2,3 +2,14 @@
         console.log("GO");
 
         monkeycardArray = monkeycardArray[Math.floor(Math.random()*monkeycardArray.length)];
+
+        @media screen and (max-width: 700px) {
+    #container-fluid {
+        width: 80vw;
+        height: 100px;
+    }
+    .monkeycard {
+        width: 30vw;
+        height: 8vw;
+    }
+}
